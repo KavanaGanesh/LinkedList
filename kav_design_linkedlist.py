@@ -11,7 +11,7 @@ class LinkedList:
         node = ListNode(val)
         if self.head is None: # check if there is no any element in the node. if yes make the head that you created as the node
             self.head = node
-            return
+            return #if you dont return here: its an  infinite loop
         
         already_existed = self.head # or makethe already existed node as th head
         while True:
